@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'Product Sans Medium Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Product Sans Medium Regular'), url('../fonts/ProductSans-Medium.woff') format('woff');
+}
+/*
+  font-family: 'Product Sans Medium Regular';
+  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Volkhov", serif;
+*/
+/* variants */
+:root{
+  --container:1170px;
+  --fz:16px;
+  --lh:26px;
+  --tc:#5E6282;
+}
+
+/* layout */
+.container{
+  width: var(--container);
+  margin: 0 auto;
+}
+
+/* typography */
+body{
+  /* 
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px; 
+  */
+  font:500 var(--fz)/var(--lh) "Poppins", sans-serif;
+  color:var(--tc);
+}
+
+/* link button */
