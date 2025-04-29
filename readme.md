@@ -17,8 +17,8 @@ HTML, CSS, JavaScript의 기본 웹 기술을 활용하여 외부 라이브러�
 2025.4.22 ~ 5.7
 
 ## 주요 파트별 담당자 정보
--header 파트 : 홍길동
--main-service : 홍길동
--main-slide : 이도령
--main-slide : 이도령
--footer : 성춘향
++ header 파트 : 홍길동
++ main-service : 홍길동
++ main-slide : 이도령
++ main-slide : 이도령
++ footer : 성춘향
