@@ -52,3 +52,18 @@ nav h1 a {
 .login_menu a:hover{
   border-color:#212832;
 }
+/* hero */
+.hero{
+  display: flex;
+  justify-content: space-between;
+}
+.hero .content{
+  margin-top: 130px;
+}
+.hero .content h3{
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  color: #DF6951;
+  text-transform: uppercase;
+}
