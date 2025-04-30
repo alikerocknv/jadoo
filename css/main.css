@@ -152,6 +152,9 @@ nav h1 a {
   top:-8px;
   right: -92px;
 }
+.services h3{
+  text-transform: uppercase;
+}
 .services h2{
   margin-bottom: 66px;
 }
@@ -209,4 +212,34 @@ nav h1 a {
     0px 20px 13px 0px rgba(0, 0, 0, 0.01), 
     0px 8.148px 6.519px 0px rgba(0, 0, 0, 0.01), 
     0px 1.852px 3.148px 0px rgba(0, 0, 0, 0.00);
+}
+
+
+.destinations h3{
+  text-transform:capitalize;
+}
+.destinations h2{
+  margin-bottom: 60px;
+}
+.destinations ul{
+  display: flex;
+  width: 1040px;
+  justify-content: space-between;
+}
+.destinations ul li{
+  width: 315px;
+  border-radius:24px;
+  overflow: hidden;
+  position: relative;
+}
+.destinations ul li figcaption {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #fff;
+  padding: 27px 26px 42px 20px;
+}
+.destinations ul li figure img{
+  width: 100%;
 }
