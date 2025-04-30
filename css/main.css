@@ -58,6 +58,7 @@ nav h1 a {
 .hero{
   display: flex;
   justify-content: space-between;
+  margin-bottom: 97px;
 }
 .hero .content{
   margin-top: 112px;
