@@ -7,7 +7,9 @@ header{
     no-repeat url(../images/header_ellipse.svg),
     no-repeat url(../images/header_bg.svg) 100% 0;
 }
-
+header nav{
+  margin-bottom: 18px;
+}
 header nav > div{
   display: flex;
   justify-content: space-between;
@@ -58,7 +60,7 @@ nav h1 a {
   justify-content: space-between;
 }
 .hero .content{
-  margin-top: 130px;
+  margin-top: 112px;
   margin-left: 15px;
   width: 545px;
 }
@@ -76,6 +78,7 @@ nav h1 a {
   line-height: 89px;
   letter-spacing: -0.04em;
   color: #181E4B;
+  margin-bottom: 30px;
 }
 .hero .content h2 strong{
   position: relative;
@@ -89,4 +92,48 @@ nav h1 a {
   bottom: 16px;
   left: -20px;
   z-index: -1;
+}
+.hero .content p{
+  line-height: 30px;
+  color: #5E6282;
+  padding-right: 70px;
+  margin-bottom: 34px;
+}
+.hero .cta{
+  display: flex;
+  gap:44px; 
+  align-items: center;
+}
+.hero .cta a{
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 0 26px;
+  background: #F1A501;
+  border-radius:10px;
+  font-size: 18px;
+  font-family: 'Product Sans Medium Regular';
+  color: #fff;
+}
+.hero .cta button{
+  display: flex;
+  align-items: center;
+  gap:21px;
+}
+.hero .cta button .icon{
+  width: 52px;
+  height: 52px;
+  border-radius:50%;
+  background: #DF6951;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  box-shadow: 0 15px 30px rgba(223,105,81,0.3);
+  font-size: 15px;
+}
+.hero .cta button{
+  font-size: 17px;
+  color: #686D77;
+  font-weight: 500;
 }
