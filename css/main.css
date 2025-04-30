@@ -138,3 +138,19 @@ nav h1 a {
   color: #686D77;
   font-weight: 500;
 }
+
+.services {
+  position: relative;
+}
+.services:after{
+  content:'';
+  width: 153px;
+  height: 166px;
+  background: url(../images/services_right_top.svg) no-repeat;
+  position: absolute;
+  top:-8px;
+  right: -92px;
+}
+.services h2{
+  margin-bottom: 66px;
+}
