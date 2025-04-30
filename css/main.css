@@ -68,6 +68,7 @@ nav h1 a {
   line-height: 30px;
   color: #DF6951;
   text-transform: uppercase;
+  margin-bottom: 24px;
 }
 .hero .content h2{  
   font-family: "Volkhov", serif;
@@ -75,4 +76,17 @@ nav h1 a {
   line-height: 89px;
   letter-spacing: -0.04em;
   color: #181E4B;
+}
+.hero .content h2 strong{
+  position: relative;
+}
+.hero .content h2 strong:after{
+  content:'';
+  width: 385px;
+  height: 12px;
+  background: url(../images/header_title_bg.svg);
+  position: absolute;
+  bottom: 16px;
+  left: -20px;
+  z-index: -1;
 }
