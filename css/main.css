@@ -266,3 +266,63 @@ nav h1 a {
 .destinations ul li figure p svg{
   color:#000;
 }
+
+/* book_a_trip */
+.book_a_trip{
+  display: flex;
+  gap:118px;
+  background: no-repeat url(../images/book_bg.svg) right top;
+}
+.book_a_trip .content{
+  width: 511px;
+}
+.book_a_trip .section-sub-tt,
+.book_a_trip .section-tt {
+  text-align:left;
+}
+.book_a_trip .section-tt{
+  margin-bottom: 31px;
+}
+.book_a_trip ol{
+  display: flex;
+  gap:48px;
+  flex-direction: column;
+}
+.book_a_trip ol li{
+  display: flex;
+  gap:21px;
+  align-items: flex-start;
+}
+.book_a_trip ol li img{
+  width: 47px;
+  height: 48px;
+  padding: 13px;
+  border-radius:13px;  
+  box-sizing: border-box;
+}
+.book_a_trip ol li .desc{
+  width: 327px;
+}
+.book_a_trip ol li:nth-child(1) img{
+  background: #F0BB1F;
+}
+.book_a_trip ol li:nth-child(2) img{
+  background: #F15A2B;
+}
+.book_a_trip ol li:nth-child(3) img{
+  background: #006380;
+}
+.book_a_trip ol li .desc h3{
+  font-weight: bold;
+  line-height: 20px;
+  margin-bottom: 4px;
+}
+.pic_of_month {
+  margin-top: 78px; 
+}
+.pic_of_month .details{
+  width: 370px;
+  background: #fff;
+  padding: 20px 24px 30px;
+  box-sizing: border-box;
+}
