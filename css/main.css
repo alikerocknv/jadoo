@@ -457,8 +457,9 @@ nav h1 a {
   position: absolute;
   top: 0;
   left: 0;
-  width: 40%;
+  width: 0;
   height: 100%;
   background: #8A79DF;
   border-radius:2.5px;
+  transition:0.3s;
 }
