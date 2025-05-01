@@ -272,6 +272,7 @@ nav h1 a {
   display: flex;
   gap:118px;
   background: no-repeat url(../images/book_bg.svg) right top;
+  padding-bottom: 200px;
 }
 .book_a_trip .content{
   width: 511px;
@@ -328,6 +329,13 @@ nav h1 a {
   box-sizing: border-box;
   position: relative;
   box-shadow: var(--shadow);
+  transform: translateX(-50px);
+  opacity: 0;
+  transition:0.3s;
+}
+.active .pic_of_month .details{
+  transform: translateX(0);
+  opacity: 1;
 }
 .pic_of_month .details img{
   margin-bottom: 26px;
@@ -403,6 +411,13 @@ nav h1 a {
   gap:12px;
   border-radius: 18px;
   box-shadow: var(--shadow);
+  transform:translateX(50px);
+  opacity: 0;
+  transition:0.3s;
+}
+.active .pic_of_month .ongoing{
+  transform:translateX(0);
+  opacity: 1;
 }
 .pic_of_month .ongoing h5{
   font-size: 14px;
@@ -430,4 +445,20 @@ nav h1 a {
 }
 .pic_of_month .ongoing p span{
   color: #8A79DF;
+}
+.progress_bar {
+  width: 156px;
+  height: 5px;
+  border-radius:2.5px;
+  background: #F5F5F5;
+  position: relative
+}
+.progress_bar .bar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40%;
+  height: 100%;
+  background: #8A79DF;
+  border-radius:2.5px;
 }
