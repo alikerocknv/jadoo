@@ -319,10 +319,115 @@ nav h1 a {
 }
 .pic_of_month {
   margin-top: 78px; 
+  position: relative;
 }
 .pic_of_month .details{
   width: 370px;
   background: #fff;
   padding: 20px 24px 30px;
   box-sizing: border-box;
+  position: relative;
+  box-shadow: var(--shadow);
+}
+.pic_of_month .details img{
+  margin-bottom: 26px;
+}
+.pic_of_month .details h4{
+  font-size: 18px;
+  line-height: 22px;
+  color: #080809;
+  letter-spacing: 0.015em;
+  margin-bottom:13px;
+}
+.pic_of_month .details p{
+  line-height: 20px;
+  color: #84829A;
+  letter-spacing: -0.005em;
+  margin-bottom:21px;
+}
+.pic_of_month .details p span{
+  position: relative;
+  margin-right: 16px;
+}
+.pic_of_month .details p span:after{
+  content:'';
+  position: absolute;
+  height: 16px;
+  border-right:1px solid #84829A;
+  bottom: 3px;
+  right: -3px;
+}
+
+.pic_of_month .icons{
+  display: flex;
+  gap:16px;
+  margin-left: 3px;
+  margin-bottom: 30px;
+}
+.pic_of_month .icons a{
+  width: 36px;
+  height: 36px;
+  background: #F5F5F5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius:50%;
+  color: #84829A;
+  font-size: 14px;
+}
+.pic_of_month .people{
+  display: flex;
+  gap:15px;
+  align-items: center;
+  color:#84829A;
+  font-weight: 600;
+}
+.pic_of_month .details .wish{
+  position: absolute;
+  right: 26px;
+  bottom: 33px;  
+  color: #4152CA;
+  font-size: 18px;
+}
+.pic_of_month .details .wish svg:last-child{
+  display: none;
+}
+.pic_of_month .ongoing{
+  position: absolute;
+  right: -104px;
+  bottom: 55px;
+  background: #fff;
+  padding: 19px 12px 21px 33px;
+  display: flex;
+  align-items: flex-start;
+  gap:12px;
+  border-radius: 18px;
+  box-shadow: var(--shadow);
+}
+.pic_of_month .ongoing h5{
+  font-size: 14px;
+  line-height: 17px;
+  color: #84829A;
+  margin-bottom: 6px;
+  letter-spacing: -0.035em;
+  font-weight: 600;
+}
+.pic_of_month .ongoing h4{
+  font-size: 18px;
+  line-height: 22px;
+  color: #080809;
+  letter-spacing: -0.015em;
+  margin-bottom: 14px;
+}
+
+.pic_of_month .ongoing p{
+  font-size: 14px;
+  line-height: 17px;
+  color: #080809;
+  letter-spacing: -0.055em;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.pic_of_month .ongoing p span{
+  color: #8A79DF;
 }
