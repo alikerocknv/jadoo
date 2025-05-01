@@ -205,15 +205,12 @@ nav h1 a {
   padding: 0 42px 44px;
 }
 .services ul li:hover{
-  box-shadow: 
-    0px 100px 80px 0px rgba(0, 0, 0, 0.02), 
-    0px 64.815px 46.852px 0px rgba(0, 0, 0, 0.02), 
-    0px 38.519px 25.481px 0px rgba(0, 0, 0, 0.01), 
-    0px 20px 13px 0px rgba(0, 0, 0, 0.01), 
-    0px 8.148px 6.519px 0px rgba(0, 0, 0, 0.01), 
-    0px 1.852px 3.148px 0px rgba(0, 0, 0, 0.00);
+  box-shadow: var(--shadow);
 }
 
+.destinations{
+  margin-bottom: 186px;  
+}
 
 .destinations h3{
   text-transform:capitalize;
@@ -225,12 +222,16 @@ nav h1 a {
   display: flex;
   width: 1040px;
   justify-content: space-between;
+  margin-left: 39px;
+  padding-right: 77px;
+  background: no-repeat url(../images/top_destination_bg.svg) 1006px 158px;
 }
 .destinations ul li{
   width: 315px;
   border-radius:24px;
   overflow: hidden;
   position: relative;
+  box-shadow: var(--shadow);
 }
 .destinations ul li figcaption {
   position: absolute;
@@ -242,4 +243,26 @@ nav h1 a {
 }
 .destinations ul li figure img{
   width: 100%;
+  border-radius:24px;
+}
+.destinations ul li figure h4{
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.245;
+  color: #5E6282;
+  margin-bottom: 19px;
+}
+.destinations ul li figure p{
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.245;
+  color: #5E6282;
+}
+.destinations ul li figure p svg{
+  color:#000;
 }
