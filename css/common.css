@@ -32,6 +32,14 @@
   width: var(--container);
   margin: 0 auto;
 }
+.hidden{
+  position: fixed;
+  left: 0;
+  top: -9999em;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
 
 /* typography */
 body{
