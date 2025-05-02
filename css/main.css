@@ -542,3 +542,16 @@ nav h1 a {
   left: -37px;
   top: -34px;
 }
+.testimonials ul li blockquote{
+  margin-bottom: 34px;
+}
+.testimonials ul li small{
+  font-size: 14px;
+  font-weight: 500;  
+}
+.testimonials ul li small span{
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  display: block;
+}
