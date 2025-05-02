@@ -555,3 +555,31 @@ nav h1 a {
   margin-bottom: 5px;
   display: block;
 }
+/* partners */
+.partners{
+  overflow: hidden;
+  margin:138px 0 145px;
+}
+.partners ul{
+  display: flex;
+  gap:50px;
+  left: 0;
+  position: relative;
+}
+.partners ul li{
+  padding: 0 10px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+.partners ul li a{
+  display: block;
+  background: #fff;
+  border-radius:10px;
+}
+.partners ul li a:hover{
+  box-shadow: var(--shadow);
+}
+.partners ul li a img{
+  width: 100%;
+}
