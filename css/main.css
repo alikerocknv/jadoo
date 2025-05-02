@@ -499,3 +499,46 @@ nav h1 a {
 .testimonials .pagination button:hover{
   color: #3E2E4D;
 }
+.testimonials .pager{
+  display: flex;
+  gap:26px;
+}
+.testimonials .pager a{
+  width: 12px;
+  height: 12px;
+  background: #E5E5E5;
+  border-radius:50%;
+  display: block;
+  transition:0.3s;
+  text-indent: -9999em;
+}
+.testimonials .pager a.active{
+  background: #3E2E4D;
+}
+.testimonials ul{
+  position: relative;
+  width: 589px;
+  height: 356px;
+}
+.testimonials ul li{
+  width: 504px;
+  position: absolute;
+  left: 87px;
+  top: 124px;
+  background: #fff;
+  padding: 28px 68px 34px 34px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+  transition:0.3s;
+}
+.testimonials ul li.active{
+  left: 37px;
+  top: 34px;
+  z-index: 1;
+}
+.testimonials ul li img{
+  position: absolute;
+  left: -37px;
+  top: -34px;
+}
